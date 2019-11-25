@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Martian Chronicles",
+    "description": "Cult book by Ray Bradbury",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/4/45/The-Martian-Chronicles.jpg"
+  },
+  {
+    "title": "The Martian",
+    "description": "Novel by Andy Weir about an astronaut stranded on Mars trying to survive",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg"
+  },
+  {
+    "title": "Doom",
+    "description": "A group of Marines is sent to the red planet via an ancient\n Martian portal called the Ark to deal with an outbreak of a mutagenic virus",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg"
+  },
+  {
+    "title": "Mars Attacks!",
+    "description": "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Mars_attacks_ver1.jpg"
+  }
+]

@@ -1,16 +1,10 @@
 import React from "react";
 import { useQuery } from "@apollo/react-hooks";
+import { GetItems } from "./operations.graphql";
 import "./App.css";
-import gql from "graphql-tag";
-
-const Items = gql`
-  query {
-    items
-  }
-`;
 
 function App() {
-  const { data, loading } = useQuery(Items);
+  const { data, loading } = useQuery(GetItems);
   return (
     <div className="App">
       <header className="App-header">

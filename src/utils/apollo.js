@@ -5,6 +5,7 @@ import { SchemaLink } from "apollo-link-schema";
 import { makeExecutableSchema } from "graphql-tools";
 import { ApolloProvider } from "@apollo/react-hooks";
 import { graphql } from "graphql";
+import numbers from "../data/numbers.json";
 
 const typeDefs = `
   type Query {
@@ -14,7 +15,7 @@ const typeDefs = `
 
 const resolvers = {
   Query: {
-    items: () => [1, 2, 4]
+    items: () => numbers
   }
 };
 
